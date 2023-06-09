@@ -1,6 +1,6 @@
 ﻿int[] elfCalories = new int[257];
 
-string path = @"C:\Users\TheWa\OneDrive\Projects\AdventOfCode\aoc2022\day1\ElfList.txt";
+string path = "./ElfList.txt";
 
 // Delete the file if it exists.
 if (File.Exists(path))
@@ -11,7 +11,7 @@ else
 // Read the file
 string? line;
 int elf = 0;
-StreamReader sr = new StreamReader(path);
+StreamReader sr = new(path);
 while (!sr.EndOfStream)
 {
     line = sr.ReadLine();
