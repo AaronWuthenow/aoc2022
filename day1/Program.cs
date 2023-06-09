@@ -22,8 +22,6 @@ while (!sr.EndOfStream)
         elf++;
 }
 
-
-
 // Show all Calories
 /*int totalCalories = 0;
 for (int i = 0; i < elfCalories.Length; i++)
