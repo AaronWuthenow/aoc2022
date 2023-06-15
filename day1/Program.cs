@@ -1,6 +1,6 @@
 ﻿int[] elfCalories = new int[257];
 
-string path = "./ElfList.txt";
+string path = "../../../ElfList.txt";
 
 // Delete the file if it exists.
 if (File.Exists(path))
@@ -23,14 +23,14 @@ while (!sr.EndOfStream)
 }
 
 // Show all Calories
-/*int totalCalories = 0;
-for (int i = 0; i < elfCalories.Length; i++)
-{
-    totalCalories += elfCalories[i];
-    Console.WriteLine($"Elf {i+1}: {elfCalories[i]}");
-}
+//int totalCalories = 0;
+//for (int i = 0; i < elfCalories.Length; i++)
+//{
+//    totalCalories += elfCalories[i];
+//    Console.WriteLine($"Elf {i + 1}: {elfCalories[i]}");
+//}
 
-Console.WriteLine($"Total Calories: {totalCalories}");*/
+//Console.WriteLine($"Total Calories: {totalCalories}");
 
 // get Max cal
 /*
