@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TheWa\\Source\\Repos\\aoc2022\\day1\\day1.csproj": {}
+    "C:\\Users\\TheWa\\source\\repos\\AaronWuthenow\\aoc2022\\day1\\day1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TheWa\\Source\\Repos\\aoc2022\\day1\\day1.csproj": {
+    "C:\\Users\\TheWa\\source\\repos\\AaronWuthenow\\aoc2022\\day1\\day1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TheWa\\Source\\Repos\\aoc2022\\day1\\day1.csproj",
+        "projectUniqueName": "C:\\Users\\TheWa\\source\\repos\\AaronWuthenow\\aoc2022\\day1\\day1.csproj",
         "projectName": "day1",
-        "projectPath": "C:\\Users\\TheWa\\Source\\Repos\\aoc2022\\day1\\day1.csproj",
+        "projectPath": "C:\\Users\\TheWa\\source\\repos\\AaronWuthenow\\aoc2022\\day1\\day1.csproj",
         "packagesPath": "C:\\Users\\TheWa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TheWa\\Source\\Repos\\aoc2022\\day1\\obj\\",
+        "outputPath": "C:\\Users\\TheWa\\source\\repos\\AaronWuthenow\\aoc2022\\day1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\TheWa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.313\\RuntimeIdentifierGraph.json"
         }
       }
     }
